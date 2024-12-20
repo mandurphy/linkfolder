@@ -1,0 +1,5 @@
+{
+    "enable": true,
+    "server": "ntp1.aliyun.com",
+    "interval": 5
+}

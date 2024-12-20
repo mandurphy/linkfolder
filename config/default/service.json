@@ -1,0 +1,12 @@
+{
+    "telnet":true,
+    "ssh":true,
+    "php":true,
+    "nginx":true,
+    "crond":true,
+    "onvif":true,
+    "ndi":true,
+    "sls":true,
+    "frp":false,
+    "trans":false
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "layId": 0,
+    "layName": "9宫格",
+    "layNameEn": "grid 3x3",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "key": 73249,
+        "pos": {
+          "a": 1,
+          "x": 0,
+          "y": 0,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 1
+        }
+      },
+      {
+        "id": -2,
+        "name": "/",
+        "lock": true,
+        "key": 53394,
+        "pos": {
+          "a": 1,
+          "x": 0.3333,
+          "y": 0,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 2
+        }
+      },
+      {
+        "id": -3,
+        "name": "/",
+        "lock": true,
+        "key": 28676,
+        "pos": {
+          "a": 1,
+          "x": 0.6667,
+          "y": 0,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 3
+        }
+      },
+      {
+        "id": -4,
+        "name": "/",
+        "lock": true,
+        "key": 69702,
+        "pos": {
+          "a": 1,
+          "x": 0,
+          "y": 0.3333,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 4
+        }
+      },
+      {
+        "id": -5,
+        "name": "/",
+        "lock": true,
+        "key": 9107,
+        "pos": {
+          "a": 1,
+          "x": 0.333,
+          "y": 0.333,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 5
+        }
+      },
+      {
+        "id": -6,
+        "name": "/",
+        "lock": true,
+        "key": 79639,
+        "pos": {
+          "a": 1,
+          "x": 0.6667,
+          "y": 0.3333,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 6
+        }
+      },
+      {
+        "id": -7,
+        "name": "/",
+        "lock": true,
+        "key": 45145,
+        "pos": {
+          "a": 1,
+          "x": 0,
+          "y": 0.6667,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 7
+        }
+      },
+      {
+        "id": -8,
+        "name": "/",
+        "lock": true,
+        "key": 96008,
+        "pos": {
+          "a": 1,
+          "x": 0.3333,
+          "y": 0.6667,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 8
+        }
+      },
+      {
+        "id": -9,
+        "name": "/",
+        "lock": true,
+        "key": 81693,
+        "pos": {
+          "a": 1,
+          "x": 0.6667,
+          "y": 0.6667,
+          "w": 0.3333,
+          "h": 0.3333,
+          "index": 9
+        }
+      }
+    ]
+  },
+  {
+    "layId": 1,
+    "layName": "4分屏",
+    "layNameEn": "grid 2x2",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0",
+          "w": "0.5",
+          "h": "0.5",
+          "index": 1
+        },
+        "enable": false,
+        "key": 27788
+      },
+      {
+        "id": -2,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0.5",
+          "y": "0",
+          "w": "0.5",
+          "h": "0.5",
+          "index": 2
+        },
+        "enable": false,
+        "key": 35441
+      },
+      {
+        "id": -3,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0.5",
+          "w": "0.5",
+          "h": "0.5",
+          "index": 3
+        },
+        "enable": false,
+        "key": 9422
+      },
+      {
+        "id": -4,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0.5",
+          "y": "0.5",
+          "w": "0.5",
+          "h": "0.5",
+          "index": 4
+        },
+        "enable": false,
+        "key": 77627
+      }
+    ]
+  },
+  {
+    "layId": 2,
+    "layName": "1+2",
+    "layNameEn": "1+2",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0.1667",
+          "w": "0.6667",
+          "h": "0.6667",
+          "index": 1
+        },
+        "enable": false,
+        "key": 38752
+      },
+      {
+        "id": -2,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0.6667",
+          "y": "0.1667",
+          "w": "0.3333",
+          "h": "0.3333",
+          "index": 2
+        },
+        "enable": false,
+        "key": 23016
+      },
+      {
+        "id": -3,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0.6667",
+          "y": "0.5",
+          "w": "0.3333",
+          "h": "0.3333",
+          "index": 3
+        },
+        "enable": false,
+        "key": 62826
+      }
+    ]
+  },
+  {
+    "layId": 3,
+    "layName": "画中画",
+    "layNameEn": "PinP",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0",
+          "w": "1",
+          "h": "1",
+          "index": 1
+        },
+        "enable": false,
+        "key": 25939
+      },
+      {
+        "id": -2,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0.6667",
+          "y": "0.6667",
+          "w": "0.25",
+          "h": "0.25",
+          "index": 2
+        },
+        "enable": false,
+        "key": 70744
+      }
+    ]
+  },
+  {
+    "layId": 4,
+    "layName": "单画面",
+    "layNameEn": "Single",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0",
+          "w": "1",
+          "h": "1",
+          "index": 1
+        },
+        "enable": false,
+        "key": 41656
+      }
+    ]
+  },
+  {
+    "layId": 5,
+    "layName": "上下",
+    "layNameEn": "UpDown",
+    "enable": false,
+    "layouts": [
+      {
+        "id": -1,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0",
+          "w": "1",
+          "h": "0.5",
+          "index": 1
+        },
+        "enable": false,
+        "key": 33095
+      },
+      {
+        "id": -2,
+        "name": "/",
+        "lock": true,
+        "pos": {
+          "a": 1,
+          "x": "0",
+          "y": "0.5",
+          "w": "1",
+          "h": "0.5",
+          "index": 2
+        },
+        "enable": false,
+        "key": 81595
+      }
+    ]
+  }
+]

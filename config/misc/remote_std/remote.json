@@ -1,0 +1,244 @@
+{
+  "used": "default",
+  "precepts": [
+    {
+      "name": "default",
+      "keys": [
+        {
+          "kid": 0,
+          "code": 3944021760,
+          "icon": "fa-solid fa-power-off fa-lg"
+        },
+        {
+          "kid": 1,
+          "code": 3960733440,
+          "icon": "fa-solid fa-bars fa-lg"
+        },
+        {
+          "kid": 2,
+          "code": 4228120320,
+          "icon": "fa-solid fa-sort-up fa-2x"
+        },
+        {
+          "kid": 3,
+          "code": 3843751680,
+          "icon": "fa-solid fa-caret-right fa-2x"
+        },
+        {
+          "kid": 4,
+          "code": 4244832000,
+          "icon": "fa-solid fa-sort-down fa-2x"
+        },
+        {
+          "kid": 5,
+          "code": 4044291840,
+          "icon": "fa-solid fa-caret-left fa-2x"
+        },
+        {
+          "kid": 6,
+          "code": 4161273600,
+          "icon": "OK"
+        },
+        {
+          "kid": 7,
+          "code": 2807627520,
+          "icon": "fa-solid fa-volume-low fa-lg"
+        },
+        {
+          "kid": 8,
+          "code": 2740780800,
+          "icon": "fa-regular fa-clone fa-lg"
+        },
+        {
+          "kid": 9,
+          "code": 4094426880,
+          "icon": "fa-solid fa-volume-high fa-lg"
+        },
+        {
+          "kid": 10,
+          "code": 4261543680,
+          "icon": "fa-solid fa-reply fa-lg"
+        },
+        {
+          "kid": 11,
+          "code": 3075014400,
+          "icon": "fa-solid fa-house fa-lg"
+        }
+      ],
+      "mods": {
+        "used": "PTZ",
+        "sels": [
+          {
+            "name": "PTZ",
+            "chn": 2,
+            "opts": [
+              {
+                "kid": 0,
+                "did": 0
+              },
+              {
+                "kid": 1,
+                "did": 1
+              },
+              {
+                "kid": 2,
+                "did": 2
+              },
+              {
+                "kid": 3,
+                "did": 3
+              },
+              {
+                "kid": 4,
+                "did": 4
+              },
+              {
+                "kid": 5,
+                "did": 5
+              },
+              {
+                "kid": 6,
+                "did": -1,
+                "val": 1
+              },
+              {
+                "kid": 7,
+                "did": 6
+              },
+              {
+                "kid": 8,
+                "did": 7
+              },
+              {
+                "kid": 9,
+                "did": 8
+              },
+              {
+                "kid": 10,
+                "did": 9
+              },
+              {
+                "kid": 11,
+                "did": 10
+              }
+            ]
+          },
+          {
+            "name": "Layout",
+            "chn": 9,
+            "lastLayId": 0,
+            "opts": [
+              {
+                "kid": 0,
+                "did": 24
+              },
+              {
+                "kid": 1,
+                "did": 1
+              },
+              {
+                "kid": 2,
+                "did": 12
+              },
+              {
+                "kid": 3,
+                "did": 13
+              },
+              {
+                "kid": 4,
+                "did": 14
+              },
+              {
+                "kid": 5,
+                "did": 15
+              },
+              {
+                "kid": 6,
+                "did": -1,
+                "val": 0
+              },
+              {
+                "kid": 7,
+                "did": 16
+              },
+              {
+                "kid": 8,
+                "did": 17
+              },
+              {
+                "kid": 9,
+                "did": 18
+              },
+              {
+                "kid": 10,
+                "did": -1,
+                "val": 1
+              },
+              {
+                "kid": 11,
+                "did": 10
+              }
+            ]
+          },
+          {
+            "name": "Output",
+            "chn": 9,
+            "lastChnId":0,
+            "opts": [
+              {
+                "kid": 0,
+                "did": 11
+              },
+              {
+                "kid": 1,
+                "did": 1
+              },
+              {
+                "kid": 2,
+                "did": 19
+              },
+              {
+                "kid": 3,
+                "did": 20
+              },
+              {
+                "kid": 4,
+                "did": 21
+              },
+              {
+                "kid": 5,
+                "did": 22
+              },
+              {
+                "kid": 6,
+                "did": -1,
+                "val": 0
+              },
+              {
+                "kid": 7,
+                "did": 16
+              },
+              {
+                "kid": 8,
+                "did": 23
+              },
+              {
+                "kid": 9,
+                "did": 18
+              },
+              {
+                "kid": 10,
+                "did": -1,
+                "val": 1
+              },
+              {
+                "kid": 11,
+                "did": 10
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

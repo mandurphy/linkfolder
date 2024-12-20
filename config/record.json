@@ -1,0 +1,127 @@
+{
+    "any": {
+        "chns": [
+        ],
+        "fileName": "",
+        "flv": false,
+        "mkv": false,
+        "mov": false,
+        "mp4": false,
+        "path": "/root/usb/",
+        "ts": false
+    },
+    "channels": [
+        {
+            "chnName": "HDMI",
+            "durTime": "--:--:--",
+            "enable": true,
+            "fileName": "",
+            "flv": false,
+            "id": 0,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "USBCam",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 1,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "Net1",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 2,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "Net2",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 3,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "NDI Recv",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 4,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "Carousel",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 5,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "ColorKey",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 6,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        },
+        {
+            "chnName": "Mix",
+            "durTime": "--:--:--",
+            "enable": false,
+            "fileName": "",
+            "flv": false,
+            "id": 7,
+            "isPause": false,
+            "mkv": false,
+            "mov": false,
+            "mp4": false,
+            "startTime": "--:--:--",
+            "ts": false
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+	"mods1":[
+		{
+			"titleCH":"录播模块",
+			"titleEN":"Broadcast",
+			"func":[
+				{
+					"ch":"开启Mix直播",
+					"en":"Start Mix Live"
+				},
+				{
+					"ch":"关闭Mix直播",
+					"en":"Stop Mix Live"
+				},
+				{
+					"ch":"开启Mix推流",
+					"en":"Start Mix Push"
+				},
+				{
+					"ch":"关闭Mix推流",
+					"en":"Stop Mix Push"
+				},
+				{
+					"ch":"开启录制",
+					"en":"Start Record"
+				},
+				{
+					"ch":"关闭录制",
+					"en":"Stop Record"
+				},
+				{
+					"ch":"开启全平台推流",
+					"en":"Stop Platform Push"
+				},
+				{
+					"ch":"关闭全平台推流",
+					"en":"Stop Platform Push"
+				}
+			]
+		}
+	],
+	"mods2":[
+		{
+			"titleCH":"系统模块",
+			"titleEN":"Network",
+			"func":[
+				{
+					"ch":"开启 Dhcp",
+					"en":"Open Dhcp"
+				},
+				{
+					"ch":"关闭 Dhcp",
+					"en":"Close Dhcp"
+				},
+				{
+					"ch":"重启机器",
+					"en":"Restart"
+				},
+				{
+					"ch":"恢复出厂设置",
+					"en":"Factory Data Reset"
+				}
+
+			]
+		},
+		{
+			"titleCH":"输出模块",
+			"titleEN":"Output",
+			"func":[
+				{
+					"ch":"开启 Hdmi/Vga",
+					"en":"Open Hdmi/Vga"
+				},
+				{
+					"ch":"关闭 Hdmi/Vga",
+					"en":"Close Hdmi/Vga"
+				}
+			]
+		},
+		{
+			"titleCH":"",
+			"titleEN":"",
+			"func":[
+				{
+					"ch":"未启用",
+					"en":"None"
+				}
+			]
+		}
+
+	]
+}

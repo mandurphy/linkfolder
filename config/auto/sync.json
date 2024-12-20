@@ -1,0 +1,30 @@
+[
+    {
+        "defDelay": -80,
+        "defDelay2": 4,
+        "delay": -80,
+        "delay2": 4,
+        "name": "HDMI",
+        "type": "ai"
+    },
+    {
+        "defDelay": -80,
+        "defDelay2": 4,
+        "delay": -80,
+        "delay2": 4,
+        "name": "Line-In",
+        "type": "ai"
+    },
+    {
+        "defDelay": 0,
+        "delay": 0,
+        "name": "Line-Out",
+        "type": "ao"
+    },
+    {
+        "defDelay": 0,
+        "delay": 0,
+        "name": "HDMI-OUT",
+        "type": "ao"
+    }
+]

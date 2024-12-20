@@ -1,0 +1,55 @@
+{
+    "fac":"V2",
+    "model":"ENC1V2",
+    "chip":"HI3520DV400",
+    "interfaceV":[
+        {"name":"HDMI","type":"HDMI"}
+    ],
+    "capability":{
+        "decode":{
+            "channels":2
+        },
+        "encode":{
+            "maxSize":"1080P",
+            "maxPixel":165888000,
+            "BFrame":false
+        },
+        "maxInput":"1080P60",
+        "maxOutput":"1080P60",
+        "extraVo":"VGA",
+        "eth1":false
+    },
+    "function":{
+        "record":true,
+        "carousel":true,
+        "overlay":true,
+        "dhcp":true,
+        "wifi":true,
+        "videoOut":true,
+        "line":true,
+        "mix":true,
+        "portCtrl":true,
+        "ndi":true,
+        "srt":true,
+        "hls":true,
+        "serialport":true,
+        "button":false,
+        "intercom":true,
+        "remote":true,
+        "rtspAuth":true,
+        "netPic":true
+    },
+    "other":{
+        "help":"120.78.2.184"
+    },
+    "gpio":{
+        "type":"himm",
+        "name":"gpio11_5",
+        "mux":"himm 0x120F0104 0x0",
+        "dir":"himm 0x12200400 0x0",
+        "addr":"0x12200080"
+    },
+    "usb":{
+        "lnk":"1-1"
+    }
+}

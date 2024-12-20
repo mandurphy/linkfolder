@@ -1,0 +1,68 @@
+{
+    "interfaceA": {
+        "HDMI": {
+            "buf": 8,
+            "channels": 2,
+            "chip": "TC7509",
+            "chnCnt": 2,
+            "cid": 0,
+            "delay": -80,
+            "delay2": 4,
+            "did": 0,
+            "samplerate": 48000
+        },
+        "HDMI-OUT": {
+            "buf": 8,
+            "channels": 2,
+            "chnCnt": 2,
+            "cid": 0,
+            "did": 1,
+            "mode": "i2sm",
+            "samplerate": 48000
+        },
+        "Line-In": {
+            "buf": 8,
+            "channels": 2,
+            "chnCnt": 2,
+            "cid": 0,
+            "delay": -80,
+            "delay2": 4,
+            "did": 1,
+            "mode": "i2ss",
+            "samplerate": 48000
+        },
+        "Line-Out": {
+            "buf": 8,
+            "channels": 2,
+            "chnCnt": 2,
+            "cid": 0,
+            "did": 0,
+            "mode": "i2sm",
+            "samplerate": 48000
+        }
+    },
+    "interfaceV": {
+        "HDMI": {
+            "chip": "TC7509",
+            "cid": 0,
+            "did": 0,
+            "dstFramerate": 60,
+            "mode": "bt1120s",
+            "protocols": [
+                "HDMI"
+            ]
+        }
+    },
+    "videoBuffer": {
+        "sys": [
+            {
+                "cnt": 30,
+                "size": 3133440
+            },
+            {
+                "cnt": 20,
+                "size": 1382400
+            }
+        ]
+    }
+}

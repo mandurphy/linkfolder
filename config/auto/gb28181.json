@@ -1,0 +1,63 @@
+{
+    "channel": [
+        {
+            "chnId": "34020000003000010000",
+            "enable": false,
+            "id": 0,
+            "name": "Stream0"
+        },
+        {
+            "chnId": "34020000003000010001",
+            "enable": false,
+            "id": 1,
+            "name": "Stream1"
+        },
+        {
+            "chnId": "34020000003000010002",
+            "enable": false,
+            "id": 2,
+            "name": "Stream2"
+        },
+        {
+            "chnId": "34020000003000010003",
+            "enable": false,
+            "id": 3,
+            "name": "Stream3"
+        },
+        {
+            "chnId": "34020000003000010004",
+            "enable": false,
+            "id": 4,
+            "name": "Stream4"
+        },
+        {
+            "chnId": "34020000003000010005",
+            "enable": false,
+            "id": 5,
+            "name": "Stream5"
+        },
+        {
+            "chnId": "34020000003000010006",
+            "enable": false,
+            "id": 6,
+            "name": "Stream6"
+        },
+        {
+            "chnId": "34020000003000010007",
+            "enable": false,
+            "id": 7,
+            "name": "Stream7"
+        }
+    ],
+    "server": {
+        "Manufacture": "Encoder",
+        "Mode": "ENC",
+        "enable": false,
+        "id": "34020000003000000001",
+        "passwd": "12345678",
+        "realm": "3402000000",
+        "svrId": "34020000002000000001",
+        "svrIp": "192.168.1.218",
+        "svrPort": 5060
+    }
+}

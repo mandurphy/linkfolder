@@ -1,0 +1,20 @@
+[
+    {
+        "desc": "Recive1",
+        "bind": "-1",
+        "port": "7001",
+        "latency": "50",
+        "passphrase": "",
+        "streamid": "",
+        "url": "srt://127.0.0.1:7001?mode=caller&latency=50"
+    },
+    {
+        "desc": "Recive2",
+        "bind": "-1",
+        "port": "7001",
+        "latency": "50",
+        "passwd": "",
+        "passphrase":"",
+        "url": "srt://127.0.0.1:7002?mode=caller&latency=50"
+    }
+]

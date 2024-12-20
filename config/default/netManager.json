@@ -1,0 +1,34 @@
+{
+  "ignore": [
+    "lo",
+    "wlan1",
+    "wlan2"
+  ],
+  "interface": {
+    "eth0": {
+      "dhcp": true,
+      "dns": "8.8.8.8",
+      "enable": true,
+      "gw": "192.168.1.1",
+      "ip": "192.168.1.217",
+      "mask": "255.255.255.0"
+    },
+    "wlan0": {
+      "dhcp": true,
+      "dns": "8.8.8.8",
+      "enable": false,
+      "gw": "192.168.1.1",
+      "ip": "192.168.1.218",
+      "mask": "255.255.255.0"
+    }
+  },
+  "onlineServer": "www.baidu.com",
+  "onlineTest": false,
+  "priority": [
+    "lan",
+    "wifi",
+    "dongle",
+    "other"
+  ],
+  "gw":"eth0"
+}

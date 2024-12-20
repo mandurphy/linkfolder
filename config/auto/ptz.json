@@ -1,0 +1,14 @@
+{
+    "config": [
+    ],
+    "script": {
+        "current": "plan1",
+        "enable": false,
+        "plan1": [
+        ],
+        "plan2": [
+        ],
+        "plan3": [
+        ]
+    }
+}

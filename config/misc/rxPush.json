@@ -1,0 +1,18 @@
+[
+    {
+        "desc": "Recive1",
+        "bind": "-1",
+        "auth": false,
+        "uname": "admin",
+        "passwd": "admin",
+        "url": "rtmp://127.0.0.1/live/zekp7aQIVVen"
+    },
+    {
+        "desc": "Recive2",
+        "bind": "-1",
+        "auth": false,
+        "uname": "admin",
+        "passwd": "admin",
+        "url": "rtmp://127.0.0.1/live/N8VXIn1ROjlk"
+    }
+]

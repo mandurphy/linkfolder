@@ -1,0 +1,48 @@
+{
+    "ndi": {
+        "networks": {
+            "ips": "0.0.0.0",
+            "discovery": ""
+        },
+        "multicast": {
+            "send": {
+                "enable": "false",
+                "netprefix": "239.255.0.0",
+                "netmask": "255.255.0.0",
+                "ttl": "1"
+            },
+            "recv": {
+                "enable": "true",
+                "subnets": ""
+            }
+        },
+        "unicast": {
+            "send": {
+                "enable": "true"
+            },
+            "recv": {
+                "enable": "true"
+            }
+        },
+        "tcp": {
+            "send": {
+                "enable": "true"
+            },
+            "recv": {
+                "enable": "true"
+            }
+        },
+        "rudp": {
+            "send": {
+                "enable": false
+            },
+            "recv": {
+                "enable": false
+            }
+        },
+        "vendor": {
+            "name": "Your Vendor Name",
+            "id": "000000000000000000000000000000"
+        }
+    }
+}

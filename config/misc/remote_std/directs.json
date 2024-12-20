@@ -1,0 +1,177 @@
+[
+  {
+    "did": 0,
+    "cn": "开关巡视",
+    "en": "Switch patrol",
+    "dscn": "开启、关闭云台的自动巡视功能",
+    "dsen": "To enable or disable the automatic inspection function of the PTZ"
+  },
+  {
+    "did": 1,
+    "cn": "模式切换",
+    "en": "Mode Switch",
+    "dscn": "在PTZ、Layout、Output模式之间切换",
+    "dsen": "Switch between PTZ, Layout, and Output modes"
+  },
+  {
+    "did": 2,
+    "cn": "上",
+    "en": "Up",
+    "dscn": "云台向上移动",
+    "dsen": "PTZ move up"
+  },
+  {
+    "did": 3,
+    "cn": "右",
+    "en": "Right",
+    "dscn": "云台向右移动",
+    "dsen": "PTZ move right"
+  },
+  {
+    "did": 4,
+    "cn": "下",
+    "en": "Down",
+    "dscn": "云台向下移动",
+    "dsen": "PTZ move down"
+  },
+  {
+    "did": 5,
+    "cn": "左",
+    "en": "Left",
+    "dscn": "云台向左移动",
+    "dsen": "PTZ move left"
+  },
+  {
+    "did": 6,
+    "cn": "焦距拉远",
+    "en": "Zoom out",
+    "dscn": "焦距拉远",
+    "dsen": "Zoom out"
+  },
+  {
+    "did": 7,
+    "cn": "通道切换",
+    "en": "Channel switch",
+    "dscn": "在已开启的网络通道之前切换",
+    "dsen": "Switch before an open network channel"
+  },
+  {
+    "did": 8,
+    "cn": "焦距拉近",
+    "en": "Zoom in",
+    "dscn": "焦距拉近",
+    "dsen": "Zoom in"
+  },
+  {
+    "did": 9,
+    "cn": "云台复位",
+    "en": "PTZ home",
+    "dscn": "云台复位，调用云台Home位置",
+    "dsen": "PTZ call home position"
+  },
+  {
+    "did": 10,
+    "cn": "录制",
+    "en": "Record",
+    "dscn": "开启、关闭文件录制",
+    "dsen": "Start or stop record"
+  },
+  {
+    "did": 11,
+    "cn": "开关HDMI输出",
+    "en": "Switch HDMI Output",
+    "dscn": "开启或关闭HDMI输出",
+    "dsen": "Enable or Disable HDMI output"
+  },
+  {
+    "did": 12,
+    "cn": "上一个布局",
+    "en": "Previous layout",
+    "dscn": "切换至上一个布局",
+    "dsen": "Switch to the previous layout"
+  },
+  {
+    "did": 13,
+    "cn": "最后一个布局",
+    "en": "End layout",
+    "dscn": "切换至最后一个布局",
+    "dsen": "Switch to the end layout"
+  },
+  {
+    "did": 14,
+    "cn": "下一个布局",
+    "en": "Next layout",
+    "dscn": "切换至下一个布局",
+    "dsen": "Switch to the next layout"
+  },
+  {
+    "did": 15,
+    "cn": "第一个布局",
+    "en": "First layout",
+    "dscn": "切换至第一个布局",
+    "dsen": "Switch to the first layout"
+  },
+  {
+    "did": 16,
+    "cn": "减小音量",
+    "en": "Volume down",
+    "dscn": "减小通道的音量增益",
+    "dsen": "Reduce the volume gain of the channel"
+  },
+  {
+    "did": 17,
+    "cn": "布局互切",
+    "en": "Switch Layout",
+    "dscn": "在最近使用的2个布局之间互相切换",
+    "dsen": "Toggle between the two most recently used layouts"
+  },
+  {
+    "did": 18,
+    "cn": "增大音量",
+    "en": "Volume up",
+    "dscn": "增大通道的音量增益",
+    "dsen": "Increases the volume gain of the channel"
+  },
+  {
+    "did": 19,
+    "cn": "上一个视频通道",
+    "en": "Previous Channal",
+    "dscn": "切入上一个视频通道",
+    "dsen": "Switch to the previous channel"
+  },
+  {
+    "did": 20,
+    "cn": "最后一个视频通道",
+    "en": "End Channal",
+    "dscn": "切入最后一个视频通道",
+    "dsen": "Switch to the end channel"
+  },
+  {
+    "did": 21,
+    "cn": "下一个视频通道",
+    "en": "Next Channel",
+    "dscn": "切入下一个视频通道",
+    "dsen": "Switch to the next channel"
+  },
+  {
+    "did": 22,
+    "cn": "第一个视频通道",
+    "en": "First Channel",
+    "dscn": "切入第一个视频通道",
+    "dsen": "Switch to the first channel"
+  },
+  {
+    "did": 23,
+    "cn": "通道互切",
+    "en": "Switch Channel",
+    "dscn": "在最近使用的2个视频通道中互相切换",
+    "dsen": "Toggle between the two most recently used layouts"
+  },
+  {
+    "did": 24,
+    "cn": "开关直播推流",
+    "en": "Switch Push",
+    "dscn": "开启或关闭直播推流,需要预先在'直播推流'页面设置好",
+    "dsen": "Start or stop push"
+  }
+]

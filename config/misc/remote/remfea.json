@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "nameCH": "方案 1",
+    "nameEN": "project 1",
+    "used": true,
+    "btns": [
+      {
+        "icon": "fa-power-off",
+        "code": 3944021760,
+        "tapCH": "关闭 Hdmi/Vga",
+        "tapEN": "Close Hdmi/Vga",
+        "pressCH": "开启 Hdmi/Vga",
+        "pressEN": "Open Hdmi/Vga"
+      },
+      {
+        "icon": "fa-bars",
+        "code": 3960733440,
+        "tapCH": "开启 Hdmi/Vga",
+        "tapEN": "Open Hdmi/Vga",
+        "pressCH": "关闭 Hdmi/Vga",
+        "pressEN": "Close Hdmi/Vga"
+      },
+      {
+        "icon": "fa-caret-up",
+        "code": 4228120320,
+        "tapCH": "开启全平台推流",
+        "tapEN": "Stop Platform Push",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-down",
+        "code": 4244832000,
+        "tapCH": "关闭全平台推流",
+        "tapEN": "Stop Platform Push",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-left",
+        "code": 4044291840,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-right",
+        "code": 3843751680,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "my-ok",
+        "code": 4161273600,
+        "tapCH": "开启录制",
+        "tapEN": "Start Record",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-down",
+        "code": 2807627520,
+        "tapCH": "开启 Dhcp",
+        "tapEN": "Open Dhcp",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-clone",
+        "code": 2740780800,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-up",
+        "code": 4094426880,
+        "tapCH": "关闭 Dhcp",
+        "tapEN": "Close Dhcp",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-reply",
+        "code": 4261543680,
+        "tapCH": "关闭录制",
+        "tapEN": "Stop Record",
+        "pressCH": "重启机器",
+        "pressEN": "Restart"
+      },
+      {
+        "icon": "fa-home",
+        "code": 3075014400,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "恢复出厂设置",
+        "pressEN": "Factory Data Reset"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nameCH": "方案 2",
+    "nameEN": "project 2",
+    "used": false,
+    "btns": [
+      {
+        "icon": "fa-power-off",
+        "code": 3944021760,
+        "tapCH": "开启Mix直播",
+        "tapEN": "Start Mix Live",
+        "pressCH": "关闭Mix直播",
+        "pressEN": "Stop Mix Live"
+      },
+      {
+        "icon": "fa-bars",
+        "code": 3960733440,
+        "tapCH": "关闭全平台推流",
+        "tapEN": "Stop Platform Push",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-up",
+        "code": 4228120320,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-down",
+        "code": 4244832000,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-left",
+        "code": 4044291840,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-right",
+        "code": 3843751680,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "my-ok",
+        "code": 4161273600,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-down",
+        "code": 2807627520,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-clone",
+        "code": 2740780800,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-up",
+        "code": 4094426880,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-reply",
+        "code": 4261543680,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-home",
+        "code": 3075014400,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nameCH": "方案 3",
+    "nameEN": "project 3",
+    "used": false,
+    "btns": [
+      {
+        "icon": "fa-power-off",
+        "code": 3944021760,
+        "tapCH": "开启Mix直播",
+        "tapEN": "Start Mix Live",
+        "pressCH": "关闭Mix直播",
+        "pressEN": "Stop Mix Live"
+      },
+      {
+        "icon": "fa-bars",
+        "code": 3960733440,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-up",
+        "code": 4228120320,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-down",
+        "code": 4244832000,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-left",
+        "code": 4044291840,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-caret-right",
+        "code": 3843751680,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "my-ok",
+        "code": 4161273600,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-down",
+        "code": 2807627520,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-clone",
+        "code": 2740780800,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-volume-up",
+        "code": 4094426880,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-reply",
+        "code": 4261543680,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      },
+      {
+        "icon": "fa-home",
+        "code": 3075014400,
+        "tapCH": "未启用",
+        "tapEN": "None",
+        "pressCH": "未启用",
+        "pressEN": "None"
+      }
+    ]
+  }
+]

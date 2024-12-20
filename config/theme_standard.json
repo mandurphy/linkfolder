@@ -1,0 +1,13 @@
+{
+  "used": "dark",
+  "themes": [
+    "default",
+    "dark"
+  ],
+  "active": "default",
+  "themeActives": [
+  	"default",
+  	"skyBlue",
+  	"salmon"
+  ]
+}

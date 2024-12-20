@@ -1,0 +1,32 @@
+{
+    "autorun": false,
+    "srcA": 0,
+    "srcV": 0,
+    "srcV_chn":"main",
+    "url": [
+        {
+            "des": "platform 1",
+            "enable": true,
+            "path": "rtmp://127.0.0.1/live/push1",
+	    "flvflags": ""
+        },
+        {
+            "des": "platform 2",
+            "enable": false,
+            "path": "rtmp://127.0.0.1/live/push2",
+	    "flvflags": ""
+        },
+        {
+            "des": "platform 3",
+            "enable": false,
+            "path": "rtmp://127.0.0.1/live/push3",
+	    "flvflags": ""
+        },
+        {
+            "des": "platform 4",
+            "enable": false,
+            "path": "rtmp://127.0.0.1/live/push4",
+	    "flvflags": ""
+        }
+    ]
+}

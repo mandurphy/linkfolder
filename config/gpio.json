@@ -1,0 +1,10 @@
+[
+	{"name":"GPIO11_5","addr":"12200000","offset": 5,"irq":91},
+	{"name":"GPIO0_0","addr":"12150000","offset": 0,"irq":89},
+	{"name":"GPIO0_6","addr":"12150000","offset": 6,"irq":89},
+	{"name":"GPIO0_1","addr":"12150000","offset": 1,"irq":89},
+	{"name":"GPIO0_2","addr":"12150000","offset": 2,"irq":89},
+	{"name":"GPIO0_4","addr":"12150000","offset": 4,"irq":89},
+	{"name":"GPIO6_5","addr":"121B0000","offset": 5,"irq":90},
+	{"name":"GPIO6_7","addr":"121B0000","offset": 7,"irq":90}
+]

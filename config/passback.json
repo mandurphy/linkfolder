@@ -1,0 +1,41 @@
+{
+    "passback":{
+        "mode":"server/local",
+        "serverIp":"192.168.1.30",
+        "channel":1,
+        "vMixIp":"",
+        "tally":"vmix"
+    },
+    "interface":[
+        "HDMI"
+    ],
+    "encV":{        
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "avbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "h264",
+      "profile": "high",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25
+    },
+    "encA": {
+      "codec": "aac",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "screen": {
+        "tally":true,
+        "source":"input/decode"
+    },
+    "intercom": {
+        "mode":"slave"
+    }
+}

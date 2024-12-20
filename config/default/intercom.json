@@ -1,0 +1,27 @@
+{
+    "intercom": {
+        "buf": 8,
+        "did": 0,
+        "enable": false,
+        "gain": 0,
+        "ip": "127.0.0.1",
+        "name": "Director",
+        "hid": "/dev/headphone",
+        "port": 7000,
+        "tid": -1,
+        "vad": 50
+    },
+    "server": {
+        "enable": false
+    },
+    "tally": {
+        "enable": false,
+        "uart": "/dev/ttyTally"
+    },
+    "vmix": {
+        "enable": false,
+        "ip": "192.168.1.56",
+        "mode": "vmix",
+        "uart": "/dev/ttyAMA1"
+    }
+}

@@ -1,0 +1,68 @@
+[
+    {
+      "alpha": "0.9",
+      "color": "#000000",
+      "content": "/link/res/banner.png",
+      "enable": false,
+      "font": "/link/res/font.ttf",
+      "h": 0,
+      "scale": 1,
+      "type": "pic",
+      "w": 0,
+      "x": "0.081",
+      "y": "0.688"
+    },
+    {
+      "alpha": 1,
+      "color": "#000000",
+      "content": "This is an example of scrolling subtitles.",
+      "enable": false,
+      "font": "/link/res/font.ttf",
+      "h": 0,
+      "move": "-2",
+      "scale": "1.79",
+      "type": "text",
+      "w": "0.599",
+      "x": "0.195",
+      "y": "0.749"
+    },
+    {
+      "alpha": "1",
+      "color": "#909090",
+      "content": "hh:mm:ss",
+      "enable": false,
+      "font": "/link/res/font.ttf",
+      "h": 0,
+      "scale": "1.46",
+      "type": "time",
+      "w": 0,
+      "x": "0.827",
+      "y": "0.806"
+    },
+    {
+      "alpha": 1,
+      "color": "#ffffff",
+      "content": "THIS IS A TITLE",
+      "enable": false,
+      "font": "/link/res/font.ttf",
+      "h": 0,
+      "scale": "1",
+      "type": "text",
+      "w": 0,
+      "x": "0.431",
+      "y": "0.706"
+    },
+    {
+      "alpha": 1,
+      "color": "#000000",
+      "content": "/link/res/logo.png",
+      "enable": false,
+      "font": "/link/res/font.ttf",
+      "h": 0,
+      "scale": 1,
+      "type": "pic",
+      "w": 0,
+      "x": "0.049",
+      "y": "0.049"
+    }
+]

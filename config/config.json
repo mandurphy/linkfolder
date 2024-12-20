@@ -1,0 +1,1255 @@
+[
+  {
+    "id": 0,
+    "name": "HDMI",
+    "type": "vi",
+    "enable": true,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "h264",
+      "profile": "high",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "h264",
+      "profile": "high",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 0,
+      "gain": 0,
+      "codec": "aac",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9001,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main0",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream0"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9101,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub0",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub0"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream0",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "interface": "HDMI",
+    "cap": {
+      "deinterlace": false,
+      "contrast": 0,
+      "rotate": 0,
+      "ntsc": false,
+      "crop": {
+        "L": 0,
+        "T": 0,
+        "R": 0,
+        "B": 0
+      }
+    }
+  },
+  {
+    "id": 1,
+    "name": "USBCam",
+    "type": "usb",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 1,
+      "gain": 0,
+      "codec": "close",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9002,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main1",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream1"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9102,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub1",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub1"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream1",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "alsa": "hw:0,0",
+    "lnk": "1-1",
+    "channels": -1
+  },
+  {
+    "id": 2,
+    "name": "Net1",
+    "type": "net",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+    "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 2,
+      "gain": 0,
+      "codec": "close",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9003,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main2",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream2"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9103,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub2",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub2"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream2",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "net": {
+      "bufferMode": 1,
+      "protocol": "tcp",
+      "framerate": -1,
+      "path": "rtsp://admin:admin@192.168.1.64",
+      "decodeV": false,
+      "decodeA": false,
+      "minDelay": 500
+    }
+  },
+  {
+    "id": 3,
+    "name": "Net2",
+    "type": "net",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 3,
+      "gain": 0,
+      "codec": "close",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9004,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main3",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream3"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9104,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub3",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub3"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream3",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "net": {
+      "bufferMode": 1,
+      "protocol": "tcp",
+      "framerate": -1,
+      "path": "rtsp://admin:admin@192.168.1.64",
+      "decodeV": false,
+      "decodeA": false,
+      "minDelay": 500
+    }
+  },
+  {
+    "id": 4,
+    "name": "NDI Recv",
+    "type": "ndi",
+    "enable": false,
+    "enable2": false,
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9005,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main4",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream4"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9105,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub4",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub4"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream4",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "ndirecv": {
+      "name": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": "Carousel",
+    "type": "file",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 5,
+      "gain": 0,
+      "codec": "close",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9006,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main5",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream5"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9106,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub5",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub5"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream5",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "decodeV": false,
+    "decodeA": false,
+    "file": []
+  },
+  {
+    "id": 6,
+    "name": "ColorKey",
+    "type": "colorKey",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "close",
+      "profile": "base",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 6,
+      "gain": 0,
+      "codec": "close",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9007,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main6",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream6"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9107,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub6",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub6"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream6",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "colorKey": {
+      "point": [
+        {
+          "x": 0.2,
+          "y": 0.2
+        },
+        {
+          "x": 0.8,
+          "y": 0.2
+        },
+        {
+          "x": 0.2,
+          "y": 0.8
+        },
+        {
+          "x": 0.8,
+          "y": 0.8
+        }
+      ],
+      "autoUpdate": false,
+      "tolerance": 20,
+      "srcA": 0,
+      "srcB": {
+        "type": "img",
+        "path": "/link/res/background.jpg",
+        "id": 2
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mix",
+    "type": "mix",
+    "enable": false,
+    "enable2": false,
+    "encv": {
+      "width": 1920,
+      "height": 1080,
+      "framerate": 30,
+      "bitrate": 4000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 2,
+      "codec": "h264",
+      "profile": "high",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "encv2": {
+      "width": 640,
+      "height": 360,
+      "framerate": 30,
+      "bitrate": 1000,
+      "rcmode": "cbr",
+      "lowLatency": false,
+      "gop": 1,
+      "codec": "h264",
+      "profile": "high",
+      "gopmode": 0,
+      "minqp": 22,
+      "maxqp": 36,
+      "Iqp": 25,
+      "Pqp": 25,
+      "syncTS": false,
+      "syncTSMode": "linkpi"
+    },
+    "enca": {
+      "audioSrc": 7,
+      "gain": 0,
+      "codec": "aac",
+      "samplerate": 48000,
+      "bitrate": 128,
+      "channels": 2
+    },
+    "stream": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9008,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.2.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_main7",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "stream7"
+    },
+    "stream2": {
+      "http": false,
+      "hls": false,
+      "rtmp": false,
+      "rtsp": {
+        "enable": true,
+        "name": "admin",
+        "passwd": "admin",
+        "auth": false
+      },
+      "srt": {
+        "enable": false,
+        "mode": "listener",
+        "ip": "127.0.0.1",
+        "port": 9108,
+        "latency": 50,
+        "passwd": ""
+      },
+      "udp": {
+        "rtp": false,
+        "ttl": 5,
+        "flowCtrl": true,
+        "bandwidth": 100,
+        "enable": false,
+        "ip": "233.233.3.1",
+        "port": 3000
+      },
+      "push": {
+        "format": "auto",
+        "enable": false,
+        "hevc_id": 12,
+        "path": "rtmp://127.0.0.1/live/test_sub7",
+        "flvflags": ""
+      },
+      "webrtc": false,
+      "suffix": "sub7"
+    },
+    "hls": {
+      "hls_time": 5,
+      "hls_list_size": 5,
+      "hls_base_url": "/hls/",
+      "hls_filename": "-%06d.ts"
+    },
+    "ndi": {
+      "name": "stream7",
+      "group": "",
+      "enable": false
+    },
+    "ts": {
+      "tsSize": 1316,
+      "mpegts_service_id": 1,
+      "mpegts_original_network_id": 1,
+      "mpegts_transport_stream_id": 1,
+      "mpegts_pmt_start_pid": 4096,
+      "mpegts_start_pid": 100
+    },
+    "output": {
+      "enable": true,
+      "ui": false,
+      "vid": 0,
+      "lowLatency": false,
+      "output": "1080P60",
+      "type": "hdmi",
+      "rotate": 0,
+      "src": 0,
+      "csc": {
+        "matrix": "identity",
+        "contrast": "50",
+        "hue": "50",
+        "luma": "50",
+        "saturation": "50"
+      }
+    },
+    "output2": {
+      "enable": false,
+      "ui": false,
+      "vid": 1,
+      "lowLatency": false,
+      "output": "1080P60",
+      "type": "vga",
+      "rotate": 0,
+      "src": 7,
+      "csc": {
+        "matrix": "identity",
+        "contrast": "50",
+        "hue": "50",
+        "luma": "50",
+        "saturation": "50"
+      }
+    },
+    "srcV": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "srcA": [
+      0
+    ],
+    "layout": [
+      {
+        "a": 1,
+        "x": "0",
+        "y": "0",
+        "w": "0.5",
+        "h": "0.5",
+        "index": 1
+      },
+      {
+        "a": 1,
+        "x": "0.5",
+        "y": "0",
+        "w": "0.5",
+        "h": "0.5",
+        "index": 2
+      },
+      {
+        "a": 1,
+        "x": "0",
+        "y": "0.5",
+        "w": "0.5",
+        "h": "0.5",
+        "index": 3
+      },
+      {
+        "a": 1,
+        "x": "0.5",
+        "y": "0.5",
+        "w": "0.5",
+        "h": "0.5",
+        "index": 4
+      }
+    ]
+  }
+]

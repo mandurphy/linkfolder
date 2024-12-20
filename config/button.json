@@ -1,0 +1,14 @@
+[
+    {
+        "click": "rec.start",
+        "gpio": "GPIO0_0",
+        "name": "A",
+        "press": "enc.setNetDhcp"
+    },
+    {
+        "click": "rec.stop",
+        "gpio": "GPIO0_1",
+        "name": "B",
+        "press": "enc.setNetDhcp"
+    }
+]
