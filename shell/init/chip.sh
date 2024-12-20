@@ -1,0 +1,28 @@
+cd /ko
+./load3521d -i
+
+#UART3
+#himm 0x120F0100 1
+#himm 0x120F0100 1
+
+#UART1
+himm 0x120F00F8 1
+himm 0x120F00FC 1
+
+#I2S
+himm 0x120F00A0 1
+himm 0x120F00A4 1
+himm 0x120F00A8 1
+himm 0x120F00AC 1
+himm 0x120F00B0 1
+himm 0x120F00B4 1
+himm 0x120F00B8 1
+himm 0x120F00BC 1
+
+#QOS
+himm 0x12120084 0x66663666
+
+#i2c
+himm 0x120F00E0 1
+himm 0x120F00E4 1
+
