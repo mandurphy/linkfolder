@@ -1,0 +1,86 @@
+[
+  {
+    "btnId": 1,
+    "remoteCode": 3944021760,
+    "btnNameCN": "按键1",
+    "btnNameEN": "Button1",
+    "icon": "fa-power-off"
+  },
+  {
+    "btnId": 2,
+    "remoteCode": 3960733440,
+    "btnNameCN": "按键 2",
+    "btnNameEN": "Button 2",
+    "icon": "fa-bars"
+  },
+  {
+    "btnId": 3,
+    "remoteCode": 4228120320,
+    "btnNameCN": "按键 3",
+    "btnNameEN": "Button 3",
+    "icon": "fa-caret-up"
+  },
+  {
+    "btnId": 4,
+    "remoteCode": 4244832000,
+    "btnNameCN": "按键 4",
+    "btnNameEN": "Button 4",
+    "icon": "fa-caret-down"
+  },
+  {
+    "btnId": 5,
+    "remoteCode": 4044291840,
+    "btnNameCN": "按键 5",
+    "btnNameEN": "Button 5",
+    "icon": "fa-caret-left"
+  },
+  {
+    "btnId": 6,
+    "remoteCode": 3843751680,
+    "btnNameCN": "按键 6",
+    "btnNameEN": "Button 6",
+    "icon": "fa-caret-right"
+  },
+  {
+    "btnId": 7,
+    "remoteCode": 4161273600,
+    "btnNameCN": "按键 7",
+    "btnNameEN": "Button 7",
+    "icon": "my-ok"
+  },
+  {
+    "btnId": 8,
+    "remoteCode": 2807627520,
+    "btnNameCN": "按键 8",
+    "btnNameEN": "Button 8",
+    "icon": "fa-volume-down"
+  },
+  {
+    "btnId": 9,
+    "remoteCode": 2740780800,
+    "btnNameCN": "按键 9",
+    "btnNameEN": "Button 9",
+    "icon": "fa-clone"
+  },
+  {
+    "btnId": 10,
+    "remoteCode": 4094426880,
+    "btnNameCN": "按键 10",
+    "btnNameEN": "Button 10",
+    "icon": "fa-volume-up"
+  },
+  {
+    "btnId": 11,
+    "remoteCode": 4261543680,
+    "btnNameCN": "按键 11",
+    "btnNameEN": "Button 11",
+    "icon": "fa-reply"
+  },
+  {
+    "btnId": 12,
+    "remoteCode": 3075014400,
+    "btnNameCN": "按键 12",
+    "btnNameEN": "Button 12",
+    "icon": "fa-home"
+  }
+]

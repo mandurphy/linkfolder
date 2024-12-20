@@ -1,0 +1,20 @@
+{
+	"interfaceV":{
+		"SDI":{"chip":"GS2971","protocols":["SDI"],"did": 0,"cid": 0,"mode": "bt1120s","dstFramerate":60},
+		"HDMI":{"chip":"IT6801","protocols":["HDMI"],"did": 2,"cid": 8,"mode": "bt1120s","dstFramerate":60}
+	},
+	"interfaceA":{
+		"SDI":{"samplerate":48000,"did": 1,"cid": 0,"chnCnt": 2, "channels": 2,"buf":8,"delay":-80,"delay2": 4},
+		"HDMI":{"samplerate":48000,"did": 0,"cid": 0,"chnCnt": 2, "channels": 2,"buf":8,"delay":-80,"delay2": 4},
+		"HDMI-OUT":{"samplerate":48000,"did": 1,"cid": 0,"channels":2, "chnCnt": 2,"mode":"i2sm","buf":8},
+		"Line-In":{"did":-1,"alsa":"hw:0,0","lnk":"1-1.4","channels":2, "samplerate":48000},
+		"Line-Out":{"did":-1,"alsa":"hw:0,0","lnk":"1-1.4","channels":2, "samplerate":48000}
+	},
+	"videoBuffer":{
+		"sys":[
+			{"size":12441600,"cnt":6},
+			{"size":3133440,"cnt":50},
+			{"size":345600,"cnt":20}
+		]
+	}
+}

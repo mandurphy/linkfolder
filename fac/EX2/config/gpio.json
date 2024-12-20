@@ -1,0 +1,4 @@
+[
+	{"name":"GPIO0_0","addr":"12150000","offset": 0,"irq":89},
+	{"name":"GPIO0_1","addr":"12150000","offset": 1,"irq":89}
+]
